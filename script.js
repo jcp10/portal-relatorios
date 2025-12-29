@@ -1,4 +1,3 @@
-function abriRelatorio(url) {
-
+function abrirRelatorio(url) {
     window.open(url, '_blank');
 }
