@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Relatórios - Machado-MG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <header class="topbar">
+        <div class="topbar-content">
+            <div class="logo-area">
+                <span>Painel Gerencial</span>
+                <small>Municipio de Machado-MG</small>
+            </div>
+            <div class="logos">
+                <img src="imagens/logo-vivver1.png" alt="logo vivver">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Relatórios Gerenciais</h1>
+            <section>
+                <h2 class="titulo-secao">Financeiro</h2>
+                <div class="cards">
+                    <div class="card" onclick="abrirRelatorio('LINK_POWERBI_AQUI')">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                        <h3>Contratos de Laboratório</h3>
+                        <p>Valores contratados, utilizados e saldo disponível</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Jean Costa Pereira. Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
